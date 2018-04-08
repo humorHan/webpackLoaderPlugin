@@ -1,25 +1,31 @@
 {
-  "name": "webpackloader",
+  "name": "webpack-loader-plugin",
   "version": "0.0.1",
   "description": "尝试webpack-loader",
   "main": "index.js",
-  "scripts": {
-    "test": "npm run dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "null"
-  },
-  "keywords": [
-    "webpack",
-    "loader"
-  ],
-  "author": "humorHan",
-  "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "art-template-loader": "^1.4.3",
     "glob": "^7.1.2",
     "loader-utils": "^1.1.0",
     "webpack": "^3.11.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humorHan/webpackLoaderPlugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "plugin"
+  ],
+  "author": "humorHan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humorHan/webpackLoaderPlugin/issues"
+  },
+  "homepage": "https://github.com/humorHan/webpackLoaderPlugin#readme"
 }
