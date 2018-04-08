@@ -1,0 +1,25 @@
+{
+  "name": "webpackloader",
+  "version": "0.0.1",
+  "description": "尝试webpack-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "author": "humorHan",
+  "license": "ISC",
+  "dependencies": {
+    "art-template-loader": "^1.4.3",
+    "glob": "^7.1.2",
+    "loader-utils": "^1.1.0",
+    "webpack": "^3.11.0"
+  }
+}
