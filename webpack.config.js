@@ -1,5 +1,7 @@
 const path = require('path');
 let Plugin = require('./plugin/plugin');
+let AddJsOrigin = require('./plugin/addJsOrigin');
+
 let entry = require('./config/entry');
 let config = require('./config/config');
 
@@ -30,6 +32,7 @@ module.exports = {
   plugins: [
     new Plugin({
       name: 'plugin param'
-    })
+    }),
+    new AddJsOrigin()
   ]
 };
