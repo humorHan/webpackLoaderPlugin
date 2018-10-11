@@ -1,0 +1,1 @@
+require('../img/1.jpg');

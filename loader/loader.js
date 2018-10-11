@@ -15,7 +15,7 @@ let loaderUtils = require('loader-utils');
  */
 function cb(source) {
   const options = loaderUtils.getOptions(this);
-  console.log(options);
+  // console.log(options);
   return `${source} var s = 1;`;
   // this.callback(null, `${source} var s = 1;`);
   // this.callback(new Error('asd'), `${source} var s = 1;`);

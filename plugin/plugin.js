@@ -1,6 +1,6 @@
 function plugin(name) {
   this.name = name;
-  console.log(this.name);
+  // console.log(this.name);
 }
 
 plugin.prototype.apply = function apply(compiler) {

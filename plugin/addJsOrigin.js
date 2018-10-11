@@ -10,7 +10,7 @@ class JsOrigin {
       let distJs = glob.sync(`${outputJsDir}/*.js`);
       distJs.forEach((item) => {
         //
-        console.log(fs);
+        // console.log(fs);
       });
       callback && callback();
     });
